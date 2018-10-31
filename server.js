@@ -15,9 +15,11 @@ app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 // Serve up static assets
-app.use(express.static("client/build"));
+
 // Add routes, both API and view
-app.use(routes);
+app.use("/", routes);
+
+app.use(express.static("client/build"));
 
 
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/portfolio-react";
