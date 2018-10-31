@@ -37,7 +37,7 @@ const projects = [
         projectName: "Clicky Game",
         gitHub: "https://github.com/walidbillel/Clicky-Game-Heros",
         appLink: "https://clicky-game-walid.herokuapp.com/",
-        gif: "https://d1ic4altzx8ueg.cloudfront.net/finder-us/wp-uploads/sites/96/2017/08/Clicky_Featured_Image.png"
+        gif: "https://img.freepik.com/free-vector/illustration-of-touch-screen-hand-gesture_53876-5608.jpg?size=338&ext=jpg"
     },
 
 

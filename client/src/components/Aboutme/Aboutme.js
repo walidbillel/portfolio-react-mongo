@@ -20,8 +20,8 @@ const Aboutme = props => {
 
             <h4>Full Stack Web Developer Who Possess An MBA With A Marketing Concentration. <br></br> Speaks Arabic, French, English and Expert in Javascript, Node Js, Express, React Js, and Down to Database Including MySQL, and MongoDB.  </h4>
             <br></br>
-            <a style={STYLE.anchor} href="https://github.com/walidbillel"> <AwesomeButton type="github"><i className="fab fa-github"></i> Github</AwesomeButton> </a>
-            <a href="https://www.linkedin.com/in/walid-boubguira-89219462/"> <AwesomeButton type="linkedin"><i className="fab fa-linkedin"></i> LinkedIn</AwesomeButton> </a>
+            <a style={STYLE.anchor} href="https://github.com/walidbillel"> <AwesomeButton className="aw-btn" type="github"><i className="fab fa-github"></i> Github</AwesomeButton> </a>
+            <a href="https://www.linkedin.com/in/walid-boubguira-89219462/"> <AwesomeButton className="aw-btn" type="linkedin"><i className="fab fa-linkedin"></i> LinkedIn</AwesomeButton> </a>
 
 
 

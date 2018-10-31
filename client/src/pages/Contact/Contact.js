@@ -107,6 +107,7 @@ class Contact extends Component {
                                     <AwesomeButton
                                         onClick={this.handleForSubmit}
                                         type="github"
+                                        className="submit-form"
                                     >
                                         Submit
       </AwesomeButton>
