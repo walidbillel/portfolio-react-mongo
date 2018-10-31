@@ -4,7 +4,7 @@
     margin: auto;
     position: relative;
     width: 325px;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    box-shadow: 0 7px 5px #999, 0 4px 6px #999;
     align-items: center;
     margin-bottom: 30px;
     display: inline-block;
@@ -28,7 +28,7 @@
   }
   
   .project-card > .img-container {
-    height: 65%;
+    height: 66%;
     overflow: hidden;
     text-align: center;
     background: rgb(44, 35, 38);
@@ -42,7 +42,8 @@
   .project-card > .content {
     text-align: center;
     color:black;
-    padding-right: 1rem;
+    background-image: linear-gradient(rgb(250, 244, 244), rgb(12, 12, 11));
+    padding: 5px;
     font-size: 15px;
   }
 

@@ -9,35 +9,35 @@ const projects = [
         projectName: "HAPPENIN'",
         gitHub: "https://github.com/walidbillel/project1-WABD-",
         appLink: "https://walidbillel.github.io/project1-WABD-/",
-        gif: "./gifs/happening.gif"
+        gif: "https://www.diocesefl.org/media/11267/ed-web-mission-youth-762x302_happening.jpg"
     },
 
     {
         projectName: "Vriend",
         gitHub: "https://github.com/walidbillel/vfriend-book-heroku",
         appLink: "https://vfriend-book.herokuapp.com/",
-        gif: "./gifs/vfriend.gif"
+        gif: "https://cdn-images-1.medium.com/max/1279/1*0IpquI0xSAap0jeUItwaVg.png"
     },
 
     {
         projectName: "Vriend 2",
         gitHub: "https://github.com/Cbutler64/Vfriend-Videos",
         appLink: "https://fathomless-dawn-58912.herokuapp.com/",
-        gif: "#"
+        gif: "https://www.cmo.com/content/dam/CMO_Other/articles/1046x616-video.png"
     },
 
     {
         projectName: "Burger",
         gitHub: "https://github.com/walidbillel/burger",
         appLink: "https://burger-eater0.herokuapp.com/",
-        gif: "./gifs/burger.gif"
+        gif: "https://theultralinx.com/.image/t_share/MTM1MTU4MDA2NjY4MTE4MDI2/boigerpng.png"
     },
 
     {
         projectName: "Clicky Game",
         gitHub: "https://github.com/walidbillel/Clicky-Game-Heros",
         appLink: "https://clicky-game-walid.herokuapp.com/",
-        gif: "./gifs/clicky.gif"
+        gif: "https://d1ic4altzx8ueg.cloudfront.net/finder-us/wp-uploads/sites/96/2017/08/Clicky_Featured_Image.png"
     },
 
 
@@ -45,28 +45,28 @@ const projects = [
         projectName: "Friend Finder",
         gitHub: "https://github.com/walidbillel/FriendFinder",
         appLink: "https://friend-finder-wb.herokuapp.com/",
-        gif: "./gifs/friend-finder.gif"
+        gif: "https://res.cloudinary.com/jerrick/image/upload/f_auto,fl_progressive,q_auto,c_fit,w_630/uatwh9wwtf1xkolzrzqf"
     },
 
     {
         projectName: "Crystal Game",
         gitHub: "https://github.com/walidbillel/unit-4-game",
         appLink: "https://walidbillel.github.io/unit-4-game/",
-        gif: "./gifs/crystal.png"
+        gif: "https://us.123rf.com/450wm/dariatri3/dariatri31509/dariatri3150900033/44567555-hand-drawing-crystals-set-crystal-gems-sketch-illustration.jpg?ver=6"
     },
 
     {
         projectName: "Trivia Game",
         gitHub: "https://github.com/walidbillel/TriviaGame",
         appLink: "https://walidbillel.github.io/TriviaGame/",
-        gif: "./gifs/trivia.gif"
+        gif: "https://static.vecteezy.com/system/resources/previews/000/129/108/non_2x/trivia-papper-background-illustration-vector.jpg"
     },
 
     {
         projectName: "Giphy",
         gitHub: "https://github.com/walidbillel/GifTastic-",
         appLink: "https://walidbillel.github.io/GifTastic-/",
-        gif: "./gifs/gif.gif"
+        gif: "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2018%2F08%2Fgiphy-film-festival-announcement-00.jpg?q=75&w=800&cbr=1&fit=max"
     },
 ];
 

@@ -38,6 +38,7 @@ class Contact extends Component {
                 name: this.state.user,
                 email: this.state.email,
                 message: this.state.message
+
             }).then(res => {console.log(res)}).catch(err => {console.log(err)})
         }
         console.log(this.state.user);
@@ -60,7 +61,7 @@ class Contact extends Component {
                 <header>Get in Touch</header>
                 <br></br><br></br>
 
-                <h4>Say Hi by filling up the form below or email me direclty at <span id="email">walid.boubguira@gmail.com</span>. Let's get social, network and brainstorm ideas <i className="fas fa-hand-rock"></i> <i className="fab fa-rocketchat"></i> <i className="fas fa-smile"></i> </h4>
+                <h4>Say Hi by filling up the form below or email me direclty at <span id="email">walid.boubguira@gmail.com</span>.<br></br> Let's get social, network and brainstorm ideas <i className="fas fa-hand-rock"></i> <i className="fab fa-rocketchat"></i> <i className="fas fa-smile"></i> </h4>
                 <br></br><br></br>
                 <div className="container" >
                     <div className="row">
@@ -116,7 +117,7 @@ class Contact extends Component {
                         <div className="col-md-5">
                         <br></br>
                         <h4>A good programer is someone who looks both ways before crossing a one-way street.</h4>
-
+<br></br><br></br>
                         <img className="mern" src="https://miro.medium.com/max/678/1*dqvlaszRLvoPmARpOlLN9A.png" alt="MERN"></img>
                         </div>
                     </div>
