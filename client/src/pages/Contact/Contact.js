@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navbar from '../../components/Nav';
 import './Contact.css'
 import { AwesomeButton } from 'react-awesome-button';
+import API from '../../utils/API';
 
 // In your render...
 
@@ -12,12 +13,16 @@ class Contact extends Component {
 
     state = {
         user: '',
-        message: ''
+        email: '',
+        message: '',
+        users: []
     };
 
     componentDidMount() {
         // console.log(this.state.user);
     }
+
+
 
     handleInputChange = event => {
         const { name, value } = event.target;
@@ -28,9 +33,17 @@ class Contact extends Component {
 
     handleForSubmit = event => {
         event.preventDefault();
-
+        if (this.state.user && this.state.message) {
+            API.saveUser({
+                name: this.state.user,
+                email: this.state.email,
+                message: this.state.message
+            }).then(res => {console.log(res)}).catch(err => {console.log(err)})
+        }
         console.log(this.state.user);
         console.log(this.state.message);
+        console.log(this.state.email);
+
 
     };
 
@@ -64,6 +77,17 @@ class Contact extends Component {
                                         type="text"
                                         className="form-control"
                                         placeholder="Enter Your Name"
+
+                                    />
+                                    <br></br>
+                                    <input
+                                        id="input"
+                                        onChange={this.handleInputChange}
+                                        value={this.state.email}
+                                        name="email"
+                                        type="text"
+                                        className="form-control"
+                                        placeholder="Enter Your Email"
 
                                     />
                                     <br></br>

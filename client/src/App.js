@@ -8,13 +8,19 @@ import './App.css';
 class App extends Component {
   render() {
     return (
+     
       <Router>
+         
         <div className="App">
+        
           <Route exact path="/" component={Home}></Route>
           <Route exact path='/portfolio' component={Portfolio}></Route>
           <Route exact path='/contact' component={Contact}></Route>
+          
         </div>
+        
       </Router>
+      
     );
   }
 }
