@@ -1,6 +1,5 @@
 import React from 'react';
 import './Skills.css';
-
 const style = {
     container: {
         marginTop: "50px"
@@ -13,6 +12,7 @@ const Skills = props => {
         <div>
             <div className="container" style={style.container}>
                 <div className="row">
+
                     <div className="col-md-3 tec-skills">
                         <h2>Technical Skills</h2>
                         <br></br>

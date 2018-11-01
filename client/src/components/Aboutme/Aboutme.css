@@ -7,6 +7,11 @@ h4 {
     /* font-weight: bold; */
 }
 
+.pic {
+	height: 200px;
+	width: 100px;
+}
+
 .aw-btn {
 	--button-hover-pressure: 4;
 --transform-speed: 0.4s;

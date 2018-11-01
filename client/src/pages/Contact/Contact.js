@@ -33,7 +33,7 @@ class Contact extends Component {
 
     handleForSubmit = event => {
         event.preventDefault();
-        if (this.state.user && this.state.message) {
+        if (this.state.user && this.state.email && this.state.message) {
             API.saveUser({
                 name: this.state.user,
                 email: this.state.email,
