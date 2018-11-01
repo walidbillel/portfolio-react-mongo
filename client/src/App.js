@@ -3,7 +3,8 @@ import Home from './pages/Home';
 import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import './App.css';
+import "./App.css"
+
 
 class App extends Component {
   render() {
