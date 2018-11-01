@@ -117,7 +117,7 @@ class Contact extends Component {
                             <br></br>
                             <h4>A good programer is someone who looks both ways before crossing a one-way street.</h4>
                             <br></br><br></br>
-                            <img className="mern" src="https://miro.medium.com/max/678/1*dqvlaszRLvoPmARpOlLN9A.png" alt="MERN"></img>
+                           
                         </div>
                     </div>
                 </div>

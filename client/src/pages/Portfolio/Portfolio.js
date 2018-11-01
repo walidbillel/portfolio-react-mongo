@@ -62,12 +62,7 @@ const projects = [
         gif: "https://static.vecteezy.com/system/resources/previews/000/129/108/non_2x/trivia-papper-background-illustration-vector.jpg"
     },
 
-    {
-        projectName: "Giphy",
-        gitHub: "https://github.com/walidbillel/GifTastic-",
-        appLink: "https://walidbillel.github.io/GifTastic-/",
-        gif: "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2018%2F08%2Fgiphy-film-festival-announcement-00.jpg?q=75&w=800&cbr=1&fit=max"
-    },
+   
 ];
 
 

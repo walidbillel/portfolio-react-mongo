@@ -3,9 +3,14 @@ import './Aboutme.css';
 import { AwesomeButton } from 'react-awesome-button';
 import 'react-awesome-button/dist/styles.css';
 
+
 const STYLE = {
     anchor: {
         textDecoration: "none"
+    },
+    image: {
+        width: "400px",
+        height: "500px"
     }
 }
 const Aboutme = props => {
@@ -16,6 +21,7 @@ const Aboutme = props => {
             <br></br>
             
             <header className="name">Walid Boubguira</header>
+          
 
             <br></br>
            

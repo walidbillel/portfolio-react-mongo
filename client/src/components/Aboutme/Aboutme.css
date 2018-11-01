@@ -1,7 +1,7 @@
 
 
 h4 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 30px;
 	font-family: 'Amatic SC', cursive;
     /* font-weight: bold; */
@@ -19,11 +19,12 @@ h4 {
 
 body {
 	width: 100wh;
-	height: 90vh;
+	height: 100vh;
 	color: #fff;
 	background: linear-gradient(-45deg, rgb(231, 92, 49), rgb(58, 55, 55), rgb(4, 184, 160), rgb(68, 35, 213));
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
+	background-size: 150% 120%;
+	background-image: url("./404.svg");
+	-webkit-animation: Gradient 18s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
 }
@@ -66,6 +67,6 @@ body {
 
 .btn {
     border-radius: 10px;
-    opacity: 0.9;
+    
 
 }
