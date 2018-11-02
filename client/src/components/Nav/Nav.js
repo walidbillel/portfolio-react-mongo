@@ -33,13 +33,13 @@ const Navbar = props => (
       <ul className="navbar-nav" >
         <li
           className={
-            window.location.pathname === "/"
+            window.location.pathname === "/home"
               ? "nav-item active"
               : "nav-item"
           }
 
         >
-          <NavLink to="/" className="nav-NavLink" style={STYLE.navLink} >
+          <NavLink to="/home" className="nav-NavLink" style={STYLE.navLink} >
             HOME
           </NavLink>
 

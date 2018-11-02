@@ -6,7 +6,6 @@ const userSchema = new Schema({
   email: { type: String, required: true },
   message: {type: String, required: true},
   date: { type: Date, default: Date.now }
- 
 });
 
 const User = mongoose.model("user", userSchema);

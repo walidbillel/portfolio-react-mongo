@@ -1,18 +1,21 @@
 .tec-skills {
-    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    font-weight: bold;
     /* text-align: left; */
     color: black;
     
 }
 
 .education {
-    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    font-weight: bold;
     color: black;
 }
 
 .marketing {
     /* text-align: left; */
-    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    font-weight: bold;
     color: black;
 }
 

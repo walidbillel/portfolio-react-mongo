@@ -116,7 +116,9 @@ class Contact extends Component {
                         <div className="col-md-5">
                             <br></br>
                             <h4>A good programer is someone who looks both ways before crossing a one-way street.</h4>
-                            <br></br><br></br>
+                            <br></br>
+                            <h4>“Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.” 
+― Rick Cook, The Wizardry Compiled</h4>
 
                         </div>
                     </div>

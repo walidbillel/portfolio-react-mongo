@@ -2,8 +2,8 @@
 
 h4 {
     color: rgb(0, 0, 0);
-    font-size: 30px;
-	font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+	font-family: 'Oswald', sans-serif;
     /* font-weight: bold; */
 }
 
@@ -12,18 +12,20 @@ h4 {
 	width: 100px;
 }
 
+
 .aw-btn {
 	--button-hover-pressure: 4;
 --transform-speed: 0.4s;
+
 }
 
 body {
 	width: 100wh;
-	height: 100vh;
+	height: 100%;
 	color: #fff;
-	background: linear-gradient(-45deg, rgb(231, 92, 49), rgb(58, 55, 55), rgb(4, 184, 160), rgb(68, 35, 213));
+	background: linear-gradient(-45deg, rgb(252, 252, 252), rgb(255, 255, 255), rgb(250, 250, 250), rgb(0, 0, 0));
 	background-size: 150% 120%;
-	background-image: url("./404.svg");
+	/* background-image: url("./full-stack-ill.svg"); */
 	-webkit-animation: Gradient 18s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
